@@ -1,5 +1,19 @@
 {
   "dependencies": {
     "node-modules": "^1.0.1"
-  }
+  },
+  "name": "jsdyma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "vite": "^5.2.10"
+  },
+  "scripts": {
+    "start": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
