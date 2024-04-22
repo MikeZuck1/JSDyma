@@ -5,7 +5,7 @@
   "name": "jsdyma",
   "version": "1.0.0",
   "main": "index.js",
-  "type": "module",
+  "type": "module", 
   "devDependencies": {
     "vite": "^5.2.10"
   },
