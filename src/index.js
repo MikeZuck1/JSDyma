@@ -36,8 +36,19 @@ let first_myIndentifier = Symbol("id");
 let second_myIndentifier = Symbol("id"); 
 // alert(first_myIndentifier === second_myIndentifier); 
 
+// conversion explicite 
 const nothing = Boolean({});
 console.log(nothing); // print true
 
 const indent = Number(0);
 console.log(indent);  
+ 
+const notNumber = NaN === NaN;
+console.log(notNumber);
+
+// conversion implicite (à voir)
+const letter = 'a' > 'b'; 
+console.log(letter); // print true 
+
+// const operatorByPrecedence = 3 * 12 + (7 + 3);
+// console.log(operatorByPrecedence); 
