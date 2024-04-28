@@ -52,3 +52,22 @@ console.log(letter); // print true
 
 // const operatorByPrecedence = 3 * 12 + (7 + 3);
 // console.log(operatorByPrecedence); 
+
+const myFirstExponention = 3 ** (3 + 1);
+console.log(myFirstExponention);
+
+const shift = 3 << 1;
+console.log(shift);  // 6 
+
+const fruits = {
+    first_fruit: "Orange",
+    second_fruit: "Banana",
+    third_fruit: "Apple",
+    fourth_fruit: "Ananas" 
+};
+
+const myFruits = function({ first_fruit, second_fruit, third_fruit }) {
+    console.log(fruits);
+};
+myFruits(fruits); // appel à la fonction 
+// console.log(fruits);
