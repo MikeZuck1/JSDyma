@@ -56,14 +56,14 @@ console.log(letter); // print true
 const myFirstExponention = 3 ** (3 + 1);
 console.log(myFirstExponention);
 
-const shift = 3 << 1;
+const shift = 3 << 1; 
 console.log(shift);  // 6 
 
 const fruits = {
     first_fruit: "Orange",
     second_fruit: "Banana",
     third_fruit: "Apple",
-    fourth_fruit: "Ananas" 
+    fourth_fruit: "Ananas"
 };
 
 const myFruits = function({ first_fruit, second_fruit, third_fruit }) {
@@ -71,3 +71,24 @@ const myFruits = function({ first_fruit, second_fruit, third_fruit }) {
 };
 myFruits(fruits); // appel à la fonction 
 // console.log(fruits);
+
+
+const theObj = {
+    name: "Paul",
+    age: 28,
+    country: "British",
+    profession: "Developer", 
+    isMarried: false,
+    hobbies: ["Swimm", "Hockey", "Read", "Education"],
+}
+
+console.log(theObj.name);
+
+const x = theObj.age;
+console.log(x);
+
+// const commit = function({}) {}
+// commit(); // call the function 
+
+const a = Number(23) + Number(3);
+console.log(a); 
