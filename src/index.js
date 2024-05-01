@@ -2,7 +2,7 @@ const name = 'jean'; // print: tring
 const age = 18; // print number
 const hobbies = null; // print : object
 let action; // print undefined 
-let sym = Symbol(); // print symbol
+let sym = Symbol(); // print symbol 
 let actif = true; // print boolean
 
 // objet litteral
@@ -26,7 +26,7 @@ console.log(typeof bigNumber);
 
 const theFunc = function() {
     let myNumber = 34; // portée de bloc (ou portée local)
-    while(myNumber === !34) { 
+    while(myNumber === !34) {
         return null; 
     }
 }
@@ -85,10 +85,20 @@ const theObj = {
 console.log(theObj.name);
 
 const x = theObj.age;
-console.log(x);
+console.log(x); 
 
 // const commit = function({}) {}
 // commit(); // call the function 
 
 const a = Number(23) + Number(3);
 console.log(a); 
+
+const isToday = function() {
+    const myDate = new Date();
+    
+    if(!myDate) {
+        console.error("Invalid date"); 
+    }
+    console.log(myDate);
+}
+isToday(); // call the function 
