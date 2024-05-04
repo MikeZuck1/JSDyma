@@ -11,3 +11,11 @@ const leurAge = new Personne(25);
 const leurLocation = new Personne("New York");
 
 console.log(`Le prémon de ${sonNom.nom} est ${sonPrenom.prenom}.`);
+
+let firstLetter = 12;
+let secondLetter = 23;
+let thirdLetter = 5;
+
+console.log(firstLetter ** secondLetter ** thirdLetter); // associativité de droite à gauche. 
+// On peut également utiliser le mot-clé "in" pour vérifier si une propriété existe dans un objet :
+// console.log('nom' in personne); 
