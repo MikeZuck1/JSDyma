@@ -19,3 +19,7 @@ let thirdLetter = 5;
 console.log(firstLetter ** secondLetter ** thirdLetter); // associativité de droite à gauche. 
 // On peut également utiliser le mot-clé "in" pour vérifier si une propriété existe dans un objet :
 // console.log('nom' in personne); 
+
+// operateur de coalescence (ou opérateur ternaire) :
+let unePersonne = undefined || 0.00; 
+console.log(unePersonne ?? "non defined"); 
