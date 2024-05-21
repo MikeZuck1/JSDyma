@@ -1,2 +1,7 @@
-const isAnAstre = "     I'm the sun.    ";
-console.log(isAnAstre.trim());
+const obj = {
+    terre: true,
+    lune: false
+};
+
+obj.mars = true;
+console.log(obj); 
