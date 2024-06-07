@@ -17,8 +17,12 @@ const aide = function() {
             break;
         case ' ':
             console.warn('you\'re input is empty or we don\'t have what do you want.');
+            break;
         default:
-            console.error('Error!'); 
+            console.error('Error!');
     }
 }
 aide(); // result you're input is empty or we don't have what do you want.
+
+const aBigNumber = BigInt(123456789012345678);
+console.log(aBigNumber);
